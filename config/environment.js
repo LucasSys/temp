@@ -3,6 +3,7 @@
 module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'aplicativo',
+    podModulePrefix: 'aplicativo/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
