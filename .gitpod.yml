@@ -1,9 +1,9 @@
 tasks:
-  - init: instala ember global
-    command: 'npm i -g ember-cli@3.25'
+  - init: npm i -g ember-cli@3.25
+    command: 'instala ember global'
 
-  - init: atualiza os pacotes do projeto
-    command: 'yarn'
+  - init: yarn
+    command: 'atualiza os pacotes do projeto'
 
-  - init: Inicia o servidor ember
-    command: 'ember s'
+  - init: ember s
+    command: 'Inicia o servidor ember'
