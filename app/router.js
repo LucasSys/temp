@@ -16,8 +16,23 @@ Router.map(function () {
     this.route('recuperar-conta');
   });
   this.route('autenticado', function() {
-    this.route('perfil');
+    this.route('perfil', function() {
+      this.route('products', function() {
+        this.route('delivers', function() {
+          this.route('view');
+        });
+      });
+    });
     this.route('compras');
     this.route('entregas');
+    this.route('loja', function() {
+      this.route('products', function() {
+        this.route('add');
+        this.route('edit');
+        this.route('delivers', function() {
+          this.route('view');
+        });
+      });
+    });
   });
 });
