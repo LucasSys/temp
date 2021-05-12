@@ -1,5 +1,3 @@
 tasks:
-  - init: npm i -g ember-cli@3.25
-  - init: npm i
-  - init: yarn
-  - init: ember s
+  - init: npm i -g ember-cli@3.25 && npm i && yarn && ember s
+
