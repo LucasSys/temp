@@ -1,11 +1,33 @@
 {{page-title "Login"}}
 
-<div class="login-model">
+<div class="login-model container">
 
-  <label for="login">
-    e-mail
-  </label>
-  <input id="login" type="text" class="login">
-  <input type="password" class="password">
+  <div class="row">
+
+    <div class="col-12 background-black padding-top-sm padding-bottom-sm margin-bottom-sm">
+      <h2 class="white">Tom<em class="red">4</em>te</h2>
+    </div>
+
+    <div class="col-12 margin-top-sm">
+
+      <UiInput
+        class="login"
+        @type="text"
+        @placeholder="E-mail"/>
+
+    </div>
+
+    <div class="col-12">
+
+      <UiInput
+        class="password"
+        @type="password"
+        @placeholder="Senha"/>
+
+    </div>
+
+  </div>
+
+
   <button class="submit-button">Entrar</button>
 </div>

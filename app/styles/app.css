@@ -68,6 +68,48 @@ ul.social-icons li a:hover {
 	color: #fff;
 }
 
+.ui-input {
+  color: #2a2a2a;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100%;
+  height: 46px;
+  border-radius: 5px;
+  outline: none;
+  padding-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-bottom: 15px;
+}
+
+.black {
+	color: #121212;
+}
+
+.red {
+	color: #f33f3f;
+}
+
+.white {
+  color: #fff;
+}
+
+.background-black {
+	background-color: #121212;
+}
+
+.background-red {
+	background-color: #f33f3f;
+}
+
+.background-white {
+  background-color: #fff;
+}
+
 a.filled-button {
 	background-color: #f33f3f;
 	color: #fff;
@@ -241,8 +283,6 @@ header .navbar {
 .background-header .navbar-brand h2 {
 	color: #121212!important;
 }
-
-
 
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -1023,6 +1063,31 @@ footer .inner-content p a {
 	}
 }
 
+.margin-sm {
+  margin: 5px;
+}
+
+.margin-top-sm {
+  margin-top: 5px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 5px;
+}
+
+
+.padding-sm {
+  padding: 5px;
+}
+
+.padding-top-sm {
+  padding-top: 5px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 5px;
+}
+
 /* login page */
 .login-model {
   background: #fff;
@@ -1040,8 +1105,8 @@ footer .inner-content p a {
   -o-transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 }
 
 .login-model .submit-button {
@@ -1053,13 +1118,6 @@ footer .inner-content p a {
     margin-right: .5em;
 }
 
-.login-model input {
-  padding: 5px;
-  margin-top: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
 
 @media (max-width: 992px) {
 	.navbar .navbar-brand {
