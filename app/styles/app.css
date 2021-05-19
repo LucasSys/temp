@@ -988,6 +988,67 @@ footer .inner-content p a {
 	padding: 15px 0px;
 }
 
+.margin-sm {
+  margin: 5px;
+}
+
+.margin-top-sm {
+  margin-top: 5px;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 5px;
+}
+
+
+.padding-sm {
+  padding: 5px;
+}
+
+.padding-top-sm {
+  padding-top: 5px;
+}
+
+.padding-bottom-sm {
+  padding-bottom: 5px;
+}
+
+.text-normal {
+	font-style: normal;
+}
+
+/* login page */
+.login-model {
+  background: #fff;
+  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  height: 257px;
+  width: 40%;
+  position: absolute;
+  min-width: 320px;
+  max-width: 475px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.login-model .submit-button {
+    display: inline-block;
+    background: #1a6692;
+    border: 1px solid darken(#1a6692, 5%);
+    padding: .5em 2em;
+    color: white;
+    margin-right: .5em;
+	border : 0;
+}
+
+
 /* Responsive Style */
 @media (max-width: 768px) {
 	.banner .text-content {
@@ -1061,61 +1122,11 @@ footer .inner-content p a {
 		margin-top: 30px;
 		margin-left: 0px;
 	}
-}
 
-.margin-sm {
-  margin: 5px;
-}
+	.login-model .submit-button {
+		padding: .2em 0.5em;
+	}
 
-.margin-top-sm {
-  margin-top: 5px;
-}
-
-.margin-bottom-sm {
-  margin-bottom: 5px;
-}
-
-
-.padding-sm {
-  padding: 5px;
-}
-
-.padding-top-sm {
-  padding-top: 5px;
-}
-
-.padding-bottom-sm {
-  padding-bottom: 5px;
-}
-
-/* login page */
-.login-model {
-  background: #fff;
-  box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
-  border-radius: 3px;
-  height: 257px;
-  width: 40%;
-  position: absolute;
-  min-width: 320px;
-  max-width: 475px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  -moz-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  /* display: flex; */
-  /* flex-direction: column; */
-}
-
-.login-model .submit-button {
-    display: inline-block;
-    background: #1a6692;
-    border: 1px solid darken(#1a6692, 5%);
-    padding: .5em 2em;
-    color: white;
-    margin-right: .5em;
 }
 
 

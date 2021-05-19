@@ -5,7 +5,7 @@
   <div class="row">
 
     <div class="col-12 background-black padding-top-sm padding-bottom-sm margin-bottom-sm">
-      <h2 class="white">Tom<em class="red">4</em>te</h2>
+      <h2 class="white">Tom<em class="red text-normal">4</em>te</h2>
     </div>
 
     <div class="col-12 margin-top-sm">
@@ -25,9 +25,16 @@
         @placeholder="Senha"/>
 
     </div>
+  
+    <div class="col-md-6 col-sm-6">
+      <button class="submit-button">Entrar</button>
+    </div>
+    
+    <div class="col-md-6 col-sm-6">
+      <LinkTo @route="desautenticado.cadastrar" @class="submit-button" >
+        Cadastrar-se
+      </LinkTo>
+    </div>
 
   </div>
-
-
-  <button class="submit-button">Entrar</button>
 </div>
